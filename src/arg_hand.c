@@ -1,4 +1,4 @@
-#include "src/arg_hand.h"
+#include "arg_hand.h"
 #include <stdlib.h>
 
 int argument_handler(int argc, char* argv[], struct args* arg) {

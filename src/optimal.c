@@ -1,4 +1,4 @@
-#include "src/arg_hand.h"
+#include "arg_hand.h"
 #include <stddef.h>
 #include <stdlib.h>
 #include <stdio.h>

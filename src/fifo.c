@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <sys/types.h>
 
-#include "src/arg_hand.h"
+#include "arg_hand.h"
 
 int fifo(struct args* arg);
 

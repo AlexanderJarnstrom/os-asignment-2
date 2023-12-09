@@ -10,9 +10,15 @@ In this assignment several page replacement algorithems will be tested, with two
 
 ### Compile
 
+cd to directory
+
     $ cd [saved directory]
 
+Compile the makefile
+
     $ make
+
+cd to output directory
 
     $ cd out/
 

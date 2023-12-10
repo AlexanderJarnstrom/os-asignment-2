@@ -7,7 +7,6 @@ ARG = --debug
 LINK = ${SRC}arg_hand.c -lm
 
 all: fifo lru optimal
-	echo "Done"
 
 fifo: ${OBJ}fifo.o ${OBJ}arg_hand.o ${SRC}arg_hand.h
 	${COM} ${ARG} -o ${OUT}fifo ${OBJ}fifo.o ${LINK}

@@ -1,6 +1,7 @@
 #include "arg_hand.h"
 #include <stdlib.h>
 
+
 int argument_handler(int argc, char* argv[], struct args* arg) {
   if (argc < REQ_ARG_COUNT || argc > REQ_ARG_COUNT)
     return ERROR;

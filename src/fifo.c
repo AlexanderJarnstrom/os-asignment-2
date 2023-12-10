@@ -26,6 +26,13 @@ int main(int argc, char *argv[])
   return SUCCESS;
 }
 
+/**
+ * The function implements the FIFO (First-In-First-Out) page replacement algorithm.
+ * 
+ * @param arg The "arg" parameter is a pointer to a struct called "args".
+ * 
+ * @return The code does not explicitly return a value.
+ */
 int fifo(struct args* arg) {
   
   int cap, page_size, size, oldest_ptr, youngest_ptr, value;
@@ -79,8 +86,6 @@ int fifo(struct args* arg) {
 
     total++;
   }
-
-
 
   printf("Page size: %d | Page count: %d\n", arg->page_size, arg->n_physical);
   printf("Page faults: %d | Total: %d\n", page_fault, total);

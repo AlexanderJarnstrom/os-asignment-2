@@ -8,6 +8,22 @@ In this assignment several page replacement algorithems will be tested, with two
 
 ## Usage
 
+### Install
+
+cd to directory
+
+    $ cd [saved directory]
+
+Install
+
+    $ ./install.sh
+
+if premison errors run
+
+    $ chmod 755 install.sh
+
+, then install.
+
 ### Compile
 
 cd to directory

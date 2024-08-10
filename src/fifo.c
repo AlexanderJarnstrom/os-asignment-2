@@ -61,8 +61,11 @@ int fifo(struct args* arg) {
   }
 
   while(getline(&line, &len, file) != -1) {
-    value = atoi(line) / page_size * page_size;
+    value = atoi(line) / page_size;
     exists = 0;
+
+    printf("%d\n", value);
+    printf("%d\n\n", atoi(line));
 
     for (i = 0; i < size && exists != 1; i++)
       if (arr[i] ==  value) exists = 1;

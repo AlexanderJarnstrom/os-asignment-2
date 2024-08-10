@@ -2,7 +2,6 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include <math.h>
 #define MEM_REF_SIZE 100000
 
 /**
